@@ -1,5 +1,6 @@
-# Hello World Example
+=======
+# L3GD20H - ESP-IDF I2C
 
-Starts a FreeRTOS task to print "Hello World"
+A small library to manage Adafruit L3GD20H 3D Gyroscope for ESP-IDF, tested on ESP32 Dev Kit.
 
-See the README.md file in the upper level 'examples' directory for more information about examples.
+https://www.adafruit.com/product/1032
