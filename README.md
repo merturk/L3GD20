@@ -6,10 +6,10 @@ https://www.adafruit.com/product/1032
 
 ## Wiring
 
-L3GD20H SCL -> ESP32 D22
-L3GD20H SDA -> ESP32 D21
+- L3GD20H SCL -> ESP32 D22
+- L3GD20H SDA -> ESP32 D21
 
-![Screenshot](https://raw.githubusercontent.com/merturk/LGD20/master/ESp32-GyroMin.jpg)
+![ESP32 Wiring](./ESp32-GyroMin.jpg)
 
 ## ESp-IDF I2C
 
