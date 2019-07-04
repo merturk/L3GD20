@@ -154,9 +154,7 @@ void app_main()
 
     init_L3GD20();
 
-
     printf("\n");
-
 
     gyroData gData;
     gData.x = 0;
@@ -166,7 +164,6 @@ void app_main()
     TaskHandle_t xHandle = NULL;
     xTaskCreate( collect_3d_gryo_data, "collect_3d_gyro_data", configMINIMAL_STACK_SIZE, (void *)&gData, tskIDLE_PRIORITY, &xHandle );
     configASSERT( xHandle );
-
 
     printf("\n .. ");
     while (1)
@@ -180,12 +177,7 @@ void app_main()
         gpio_set_level(BLINK_GPIO, 1);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
 
-
         printf("gdata from loop %f, %f, %f \n", gData.x, gData.y, gData.z);
-
-
-
-
         printf("\n");
     }
 
