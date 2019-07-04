@@ -1,6 +1,5 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/merturk/Playground/esp/l3d20h
--- Project is not inside a git repository,                         will not use 'git describe' to determine PROJECT_VER.
--- Project version: 1
+-- Project version: 0603a0c-dirty
 -- Building ESP-IDF components for target esp32
 -- Checking Python dependencies...
 Python requirements from /Users/merturk/Playground/esp/esp-idf/requirements.txt are satisfied.
