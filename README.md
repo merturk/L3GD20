@@ -9,7 +9,8 @@ https://www.adafruit.com/product/1032
 - L3GD20H SCL -> ESP32 D22
 - L3GD20H SDA -> ESP32 D21
 
-![ESP32 Wiring](./ESp32-GyroMin.jpg)
+![ESP32 Wiring](./ESp32-GyroMin.jpg
+)
 
 ## ESp-IDF I2C
 
@@ -77,4 +78,4 @@ static esp_err_t i2c_master_read_slave(i2c_port_t i2c_num, uint8_t *data_rd, siz
     return ret;
 }
 
-``
+```
